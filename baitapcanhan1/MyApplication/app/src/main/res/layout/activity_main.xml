@@ -41,7 +41,7 @@
         android:id="@+id/textView"
         android:layout_width="156dp"
         android:layout_height="33dp"
-        android:text="Jonh Smith"
+        android:text="Tran Hieu"
         android:gravity="center"
         android:textStyle="bold"
         android:textSize="25dp"
@@ -51,10 +51,10 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="156dp"
-        android:layout_height="33dp"
+        android:layout_width="207dp"
+        android:layout_height="56dp"
         android:gravity="center"
-        android:text="California,USA"
+        android:text="Binh Long, Binh Phuoc"
         android:textSize="19dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
