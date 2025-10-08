@@ -11,43 +11,38 @@
         android:id="@+id/imageView"
         android:layout_width="51dp"
         android:layout_height="47dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="28dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/icons8_arrow_left_32" />
+        app:srcCompat="@drawable/icons8_arrow_left_32"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="28dp" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="53dp"
         android:layout_height="46dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/icons8_writing_32" />
+        app:srcCompat="@drawable/icons8_writing_32"
+        tools:layout_editor_absoluteX="342dp"
+        tools:layout_editor_absoluteY="24dp" />
+
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="188dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/screenshot" />
+        app:srcCompat="@drawable/screenshot"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="149dp" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="156dp"
         android:layout_height="33dp"
-        android:text="Tran Hieu"
         android:gravity="center"
-        android:textStyle="bold"
+        android:text="Tran Hieu"
+        android:textColor="#FF0000"
         android:textSize="25dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="302dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -56,8 +51,7 @@
         android:gravity="center"
         android:text="Binh Long, Binh Phuoc"
         android:textSize="19dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="335dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

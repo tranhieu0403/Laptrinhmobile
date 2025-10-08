@@ -19,5 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "BTVN"
+rootProject.name = "TH2_1"
 include(":app")
+ 
