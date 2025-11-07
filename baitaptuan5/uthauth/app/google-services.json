@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "921511864423",
+    "project_id": "uthauth-339e3",
+    "storage_bucket": "uthauth-339e3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921511864423:android:3a4aa55ae0e3b25d77ccc2",
+        "android_client_info": {
+          "package_name": "com.example.uthauth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsFbtKUZZ1SSNACusVrpE5FLj2PwbUq0Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
